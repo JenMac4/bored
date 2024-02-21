@@ -1,0 +1,98 @@
+:root{
+
+}
+
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url('canyon.jpg'); */
+    background-size: cover;
+    background-position: center;
+    
+    /* border-radius: 25px; */
+    z-index: -3; /* Ensure the pseudo-element is behind the content */
+}
+
+.button{
+    z-index: 5;
+}
+
+.text{
+    font-size: 5em;
+    color: white;
+    outline: 5px black;
+}
+
+.whole-page-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -500;
+}
+
+.formText{
+    text-align: center;
+    padding: 0 9%;
+    margin-bottom: 3%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon{
+    background-image: url('143.png');
+    background-repeat: no-repeat;
+    /* scale: 1; */
+    height: 70px;
+    /* height: 9%; */
+    width: 70px;
+    z-index: 100;
+}
+
+.dugtrio{
+    background-image: url('50.png');
+    background-repeat: no-repeat;
+    height: 55px;
+
+}
+
+.pokemon-bottom{
+    margin: 3% 0;
+}
+
+
+.text{
+    font-size: 1em;
+    font-family: 'Press Start 2P', system-ui;
+    color: black;
+    text-align: center;
+    padding: 0 9%;
+}
+
+#button{
+    appearance: none;
+  -webkit-appearance: none;
+    /* background-color: rgba(0, 0, 0, 0); */
+    background-color: transparent;
+    font-family: 'Press Start 2P', system-ui;
+    font-size: 0.65em;
+    padding: 3%;
+    border-radius: 10px;
+    border: 3px double gray;
+
+}
